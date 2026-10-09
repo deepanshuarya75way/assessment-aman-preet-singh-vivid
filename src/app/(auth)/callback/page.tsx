@@ -11,7 +11,7 @@ const AuthCallbackPage = async () => {
     auth.status === 400 ||
     auth.status === 500
   ) {
-    redirect("/sign-in");
+    console.log(error);
   }
 };
 
